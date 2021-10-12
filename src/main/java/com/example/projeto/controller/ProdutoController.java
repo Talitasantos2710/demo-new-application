@@ -11,7 +11,7 @@ import com.example.projeto.models.Produto;
 import com.example.projeto.repository.ProdutoRepository;
 
 @RestController
-@RequestMapping(value = "/api")
+@RequestMapping(value = "/api/produtos")
 public class ProdutoController {
 
 	@Autowired
